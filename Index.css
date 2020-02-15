@@ -103,7 +103,7 @@ opacity: 0.7;
 
 .inner-box {
     background-color: rgb(246, 247, 247);
-    min-width: 1200px;
+    width: 500px;
     height: 700px;
     margin: 50px auto;
     border-radius: 10px; 
