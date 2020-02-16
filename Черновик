@@ -1,0 +1,108 @@
+     <div class="block-1"> <img src="photo/Iva.jpg" width="200px">
+        <p class="text1">Каждый момент нашей жизни ценен и неповторим. Именно поэтому так важно уловить каждую эмоцию, каждую секунду. Позвольте мне рассказать вашу историю моими фотографиями.
+        
+        Мне нравится задача открывать для себя новые вещи, развиваться, узнавать что-то новое каждый день и расти в своем творчестве.
+Фотографии рассказывают истории из жизни, так позвольте мне рассказать вашу историю своими фотографиями
+       
+       Каждый момент нашей жизни ценен и неповторим. Именно поэтому так важно уловить каждую эмоцию, каждую секунду. Мне нравится задача открывать для себя новые вещи, развиваться, узнавать что-то новое каждый день и расти в своем творчестве.
+Фотоиллюстрации рассказывают истории из жизни, так позвольте мне рассказать вашу историю своими фотографиями</p>
+   
+    <nav class="main bar">  
+        <a class="text">Home</a>
+        <a class="text">Portfolio</a>
+        <a class="text">Blog</a>
+        <a class="text">Fotobox</a>
+        <a class="text">Contact</a>
+    </nav>
+    <div class="information"> 
+    <div class=" ">
+        
+    </div>
+    
+    </div>
+    <div id="background-photo">
+    <div id="photo"></div>
+</div>
+
+
+
+body {
+    min-width: 1000px;
+    margin:0;
+    padding:0;
+}
+
+#background-photo {
+width: auto;
+height: 500px;    
+}
+
+#photo {
+background: url("41.jpg") no-repeat 50% 50%;
+}
+
+.bar {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 40px 0px 40px 0px;
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+    margin: auto;
+}
+.text {
+    margin: 90px;
+    font-family: "BRUSH SCRIPT MT";
+    font-size: 35px;
+}
+.text:hover {
+    text-decoration: underline;
+}
+
+
+.box {
+    background: url("2.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    width: auto;
+    height: 1080px;
+}
+
+function next() {
+    let slider = document.querySelector("pic");
+    num++;
+    if(num>=images.length) {
+        num=0;
+    }
+    slider.src=images[num];
+}
+
+function prev() {
+    let slider = document.querySelector("pic");
+    num--;
+    if(num<0) {
+        num=images.lenght-1;;
+    }
+    slider.src=images[num];
+}
+
+delayAutoplay: 5000, // интервал между автоматической сменой слайдов
+
+
+            <div class="photo6"></div>
+            <div class="photo7"></div>
+            <div class="photo8"></div>
+            <div class="photo9"></div>
+            <div class="photo10"></div>
+            <div class="photo11"></div>
+            <div class="photo12"></div>
+            <div class="photo13"></div>
+            <div class="photo14"></div>
+            <div class="photo15"></div>
+            <div class="photo16"></div>
+            <div class="photo17"></div>
+            <div class="photo18"></div>
+            <div class="photo19"></div>
+            <div class="photo20"></div>
+            <div class="photo21"></div>
+            <div class="photo22"></div>
+            <div class="photo23"></div>
+            <div class="photo24"></div>
