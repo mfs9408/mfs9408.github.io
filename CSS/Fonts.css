@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'CrimsonText-Roman';
+	src: url('../fonts/CrimsonText-Roman/CrimsonText-Roman.eot');
+	src: local('CrimsonText-Roman'), url('../fonts/CrimsonText-Roman/CrimsonText-Roman.woff') format('woff'), url('../fonts/CrimsonText-Roman/CrimsonText-Roman.ttf') format('truetype'), url('../fonts/CrimsonText-Roman/CrimsonText-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VeryBerryPro-Regular';
+	src: url('../fonts/VeryBerryPro-Regular.eot');
+	src: local('☺'), url('../fonts/VeryBerryPro-Regular.woff') format('woff'), url('../fonts/VeryBerryPro-Regular.ttf') format('truetype'), url('../fonts/VeryBerryPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Letter Gothic';
+	src: url('../fonts/ofont.ru_Letter Gothic.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Letter Gothic.woff') format('woff'), url('../fonts/ofont.ru_Letter Gothic.ttf') format('truetype'), url('../fonts/ofont.ru_Letter Gothic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

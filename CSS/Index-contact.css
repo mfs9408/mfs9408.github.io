@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	background: url("../photo/Horses/Valeria2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	width: auto;
+	height: 1040px;
+	margin: 0px;
+	position: relative;
+}
+
+.page {
+	text-decoration: underline;
+}
+
+.text:hover {
+	text-decoration: underline;
+	transition-delay: 1s;
+}
+
+.logo {
+	width: 130px;
+	height: 90px;
+	background: url("../photo/sign.jpg") 50% 50% no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 0px;
+	left: 45%;
+}
+
+.information {
+	width: 600px;
+	height: 230px;
+	position: absolute;
+	display: inline-block;
+	top: 55%;
+	right: 7%;
+	color: white;
+	font-family: Letter Gothic;
+	font-size: 18px;
+	text-indent: 20px;
+	text-shadow: 1px 1px 3px black;
+	text-align: right;
+}
+
+#name {
+	margin-top: 30px;
+	float: right;
+}
+
+.social-box {
+	width: 160px;
+	height: 70px;
+	position: absolute;
+	bottom: 5%;
+	right: 7%;
+}
+
+.social {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	position: relative;
+	top: 20px;
+}
+
+.social-vk {
+	background: url("../photo/Vk%C2%A0%E2%80%94%20white.jpg") 50% 50% no-repeat;
+	background-size: contain;
+}
+
+.social-insta {
+	background: url("../photo/Insta%C2%A0-%20white.jpg") 50% 50% no-repeat;
+	background-size: contain;
+}
+
+.social-whatsup {
+	background: url("../photo/whatsup.png") 50% 50% no-repeat;
+	background-size: contain;
+}
+
+.social:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease-out;
+}
