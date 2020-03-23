@@ -120,6 +120,10 @@ div[class*="foot"] {
 	left: 43px;
 }
 
+.buton:after {
+	background: url("../photo/Insta.jpg")
+}
+
 .insta-button {
 	color: #ffffff;
 	font-family: CrimsonText-Roman;

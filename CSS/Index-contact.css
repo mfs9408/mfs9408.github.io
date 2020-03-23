@@ -42,7 +42,8 @@ body {
 	font-family: Letter Gothic;
 	font-size: 18px;
 	text-indent: 20px;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: black 1px 1px 0, black -1px -1px 0,
+		black -1px 1px 0, black 1px -1px 0;
 	text-align: right;
 }
 

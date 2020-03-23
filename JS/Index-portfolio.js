@@ -12,6 +12,7 @@ let animation = function (class1, class2) {
 animation(".animation-1", ".inform-1");
 animation(".animation-3", ".inform-3");
 animation(".animation-4", ".inform-4");
+animation(".animation-5", ".inform-5");
 
 
 

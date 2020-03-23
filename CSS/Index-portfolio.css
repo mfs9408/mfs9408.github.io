@@ -54,6 +54,11 @@ body {
 	background-size: cover;
 }
 
+.port-5 {
+	background: url("../photo/Fedor/Fedor8.jpg") 50% 10% no-repeat;
+	background-size: cover;
+}
+
 p {
 	display: inline-block;
 	vertical-align: middle;
@@ -61,6 +66,10 @@ p {
 	font-size: 35px;
 	color: #4e4242;
 
+}
+
+.sport {
+	  font-family: 'SF Atarian System Bold Italic', arial;
 }
 
 .boxphoto a div[class*="port"] {
@@ -90,6 +99,10 @@ p {
 	box-shadow: 0px 0px 5px 2px rgb(227, 43, 70);
 }
 
+.port-5:hover {
+	box-shadow: 0px 0px 5px 2px rgb(251,177, 137);
+}
+
 div[class*="inform"] {
 	background-color: rgb(234, 233, 231);
 	border-radius: 5px 5px 0 0;
@@ -103,8 +116,3 @@ div[class*="inform"] {
 	z-index: 2;
 }
 
-/* div[class*="inform"]:hover {
-    transform: translate(0, -40px);
-    transition: all ease-out 0.5s;
-}
-*/

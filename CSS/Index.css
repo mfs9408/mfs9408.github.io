@@ -36,7 +36,7 @@ body {
 }
 
 .slider:nth-of-type(1) {
-	background: url(../photo/Lila1.jpg) 50% 20% no-repeat;
+	background: url(../photo/Fotobox/Lera7.jpg) 50% 20% no-repeat;
 	background-size: cover;
 }
 
@@ -46,24 +46,31 @@ body {
 }
 
 .slider:nth-of-type(3) {
-	background: url(../photo/Fotobox/Lera7.jpg) 50% 30% no-repeat;
+	background: url(../photo/Lila1.jpg) 50% 30% no-repeat;
 	background-size: cover;
 }
 
 .slider:nth-of-type(4) {
-	background: url(../photo/Zanna/Zanna16.jpg) no-repeat 50% 50%;
+	background: url(../photo/Fedor/Fedor11.jpg) 50% 80% no-repeat;
 	background-size: cover;
 }
 
 .slider:nth-of-type(5) {
-	background: url(../photo/Luda2.jpg) 50% 50% no-repeat;
+	background: url(../photo/Zanna/Zanna16.jpg) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .slider:nth-of-type(6) {
+	background: url(../photo/Luda2.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.slider:nth-of-type(7) {
 	background: url(../photo/Horses/Valeria10.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
+
+
 
 .page {
 	text-decoration: underline;
