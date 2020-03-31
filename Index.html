@@ -1,103 +1,140 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="Фотограф, Ставрополь, недорогой, фотосессия">
-	<meta name="description" content="Вы хотите красивых фотографий? Меня зовут Иванна и я – ваш фотограф! Семейные фотосессии, Love story, художественные фотосессии, коммерческие фотосессии. ">
-	<meta name="geo.placename" content="Ставрополь, Россия">
-	<title>IvaMur.photo Фотограф в Ставрополе</title>
-	<link rel="stylesheet" href="CSS/Index.css">
-	<link rel="stylesheet" href="CSS/Bar.css">
-	<link rel="stylesheet" href="CSS/Footer.css">
-	<link rel="stylesheet" href="CSS/Fonts.css">
-	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<title>Drag Drop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel=stylesheet href="index.css">
+
+<style type="text/css">
+	
+</style>
+
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
 </head>
-
 <body>
-	<div class="box">
 
-		<ul id="slider">
-			<li class="slider showing"></li>
-			<li class="slider"></li>
-			<li class="slider"></li>
-			<li class="slider"></li>
-			<li class="slider"></li>
-			<li class="slider"></li>
-			<li class="slider"></li>
-		</ul>
-
-		<header>
-			<nav id="bar">
-				<a class="text page" href="Index.html">Home</a>
-				<a class="text" href="HTML/index-portfolio.html">Portfolio</a>
-				<a class="text"></a>
-				<a class="text" href="HTML/Fotobox.html">Fotobox</a>
-				<a class="text" href="HTML/index-contact.html">Contact</a>
-				<a href="Index.html">
-					<div class="logo"> </div>
-				</a>
-			</nav>
-		</header>
-
-	</div>
-	<div class="outer-box">
-		<div class="inner-box">
-			<div class="Ivasblock">
-			</div>
-			<h1 class="headline"> Позвольте мне рассказать вашу историю</h1>
-			<p class="text1">
-				Каждый момент нашей жизни ценен и неповторим. Именно поэтому так важно уловить каждую эмоцию, каждую секунду. Мне нравится открывать для себя новые вещи, развиваться, узнавать что-то новое каждый день и расти в своём творчестве. </p>
-
-			<p class="text1">
-				Фотоиллюстрации рассказывают истории из жизни, так позвольте мне рассказать вашу историю своими фотографиями.</p>
-			<p id="name">Иванна Муратиди</p>
-		</div>
-		<h1 class="headline2">Лучшее из галереи <br /><span class="minitext">Ваши моменты – мои фотографии</span></h1>
-		<div class="table clearfix">
-			<div class="table-inner clearfix">
-				<div class="pic1"></div>
-				<div class="pic2"></div>
-				<div class="pic3"></div>
-				<div class="pic4"></div>
-				<div class="pic5"></div>
-				<div class="pic6"></div>
-			</div>
-		</div>
-
-
-	</div>
-
-	<div class="instagram link">
-		<div class="insta-photo">
-			<div class="foot1"></div>
-			<div class="foot2"></div>
-			<div class="foot3"></div>
-			<div class="foot4"></div>
-			<div class="foot5"></div>
-			<div class="foot6"></div>
-
-			<a class=" insta-button" href="https://www.instagram.com/ivamur.photo/?hl=ru" target="_blank">
-				<div class="outer-button">
-					<div class="button">IVAMUR.PHOTO</div>
+<div class="container d-flex align-items-start justify-content-around">
+	
+	<div class="row">
+		<div class="cl main_box">
+			
+			<div class="row d-flex align-items-start justify-content-around flex-wrap">
+				
+				<div class="col-sm-6 box">
+					<div class="row head d-flex align-items-start justify-content-center" style="height: 90px">
+						<div class="col-6" style="padding: 0;">
+							<h4>Mein Inventar</h4>
+						</div>
+						<div class="col-6">
+							 <div class="progress" style="height:30px; background: #1c4065">
+							  <div class="progress-bar" style="width:70%;height:30px; background: #1f71bf">4.39/15kg</div>
+							</div> 
+						</div>
+					</div>
+					<div class="row d-flex align-items-start justify-content-around flex-wrap">
+						<div class=" item">
+							<a href="javascript:void(0)" id="drag1"  draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)">
+								<div class="row">
+									<div class="col-6 text-left up_txt">1</div>
+									<div class="col-6 text-right up_txt">0.1kg</div>
+								</div>
+								<img  src="Donaut.png" style="width: 100%; height: 70px;">
+							<h6>Donut</h6>
+							</a>
+						</div>
+						<div class=" item">
+							<a href="javascript:void(0)" id="drag2"  draggable="true" ondragstart="drag(event)"  ondrop="drop(event)" ondragover="allowDrop(event)">
+								<div class="row">
+									<div class="col-6 text-left up_txt">1</div>
+									<div class="col-6 text-right up_txt">0.9kg</div>
+								</div>
+								<img  src="HotDoag.jpg" style="width: 100%; height: 70px;">
+							<h6>HotDog</h6>
+							</a>
+						</div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					</div>
+					
 				</div>
-			</a>
+
+				<div class="col-sm-1">
+					<img src="arrows.png" style="width: 100%">
+				</div>
+				
+				<div class="col-sm-6 box dropbox ">
+					<div class="row head d-flex align-items-start justify-content-around" style="height: 90px">
+						<div class="col-6" style="padding: 0;">
+							<h4>Kofferraum</h4>
+						</div>
+						<div class="col-6">
+							 <div class="progress" style="height:30px; background: #1c4065">
+							  <div class="progress-bar" style="width:100%;height:30px; background: #1c4065">0.00/100kg</div>
+							</div> 
+						</div>
+					</div>
+					
+					<div class="row d-flex align-items-start justify-content-around inner-box">
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div class=" item"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					</div>
+									
+
+					
+				</div>
+
+
+
+			</div>
+
 		</div>
 	</div>
 
+</div>
 
-	<footer>
-		<div class="imagesBy">Images by Ivanna Muratidi</div>
-		<div class="share">
-			<a class="social social-vk" href="https://vk.com/public187118339" target="_blank"></a>
-			<a class="social social-insta" href="https://www.instagram.com/ivamur.photo/?hl=ru" target="_blank"></a>
-		</div>
-		<div class="block-sign">
-			<div class="mfs"> </div>
-		</div>
-	</footer>
-	<script src="JS/Animation.js"></script>
-	<script src='JS/JS%20jquery.js'></script>
+
+
 </body>
-
 </html>
