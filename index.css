@@ -24,6 +24,7 @@ input {
 input::-webkit-input-placeholder { 
     color: white; 
     text-align: center;
+    opacity: 0.5;
 }
 
 .container {
@@ -41,4 +42,5 @@ h1 {
     text-align: center;
     margin: 0 auto;
     padding-top: 25px;
+    color: white; 
 }
