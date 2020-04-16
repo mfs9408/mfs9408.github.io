@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80a54e73.chunk.css",
+    "main.js": "/static/js/main.e6df22c5.chunk.js",
+    "main.js.map": "/static/js/main.e6df22c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.94e1ab3b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.94e1ab3b.js.map",
+    "static/js/2.eed0a61e.chunk.js": "/static/js/2.eed0a61e.chunk.js",
+    "static/js/2.eed0a61e.chunk.js.map": "/static/js/2.eed0a61e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.280c876db82a8b527aa8c81d14f22799.js": "/precache-manifest.280c876db82a8b527aa8c81d14f22799.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.80a54e73.chunk.css.map": "/static/css/main.80a54e73.chunk.css.map",
+    "static/js/2.eed0a61e.chunk.js.LICENSE.txt": "/static/js/2.eed0a61e.chunk.js.LICENSE.txt",
+    "static/media/Choice-block.css": "/static/media/frontend.1cd95e44.png",
+    "static/media/Contact.css": "/static/media/whatsup.c513e4d8.png",
+    "static/media/Github.png": "/static/media/Github.5ae6b47f.png",
+    "static/media/cssFront.png": "/static/media/cssFront.7f2671a8.png",
+    "static/media/flexFront.png": "/static/media/flexFront.4539fa22.png",
+    "static/media/gridFront.png": "/static/media/gridFront.fbc811f4.png",
+    "static/media/htmlFront.png": "/static/media/htmlFront.c7e49ac4.png",
+    "static/media/jqFront.png": "/static/media/jqFront.2ddc0f7e.png",
+    "static/media/jsFront.png": "/static/media/jsFront.6f9df6ab.png",
+    "static/media/skill-block.css": "/static/media/me.e2c0f428.jpg",
+    "static/media/project.css": "/static/media/photo-site4.1e0b068d.png",
+    "static/media/reactFront.png": "/static/media/reactFront.33ccb501.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94e1ab3b.js",
+    "static/js/2.eed0a61e.chunk.js",
+    "static/css/main.80a54e73.chunk.css",
+    "static/js/main.e6df22c5.chunk.js"
+  ]
+}
